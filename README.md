@@ -97,8 +97,8 @@ Allow camera and microphone permissions when prompted.
 This project is an assistive technology prototype. It is not intended to replace established mobility aids such as white canes or guide dogs. It should be tested in safe environments.
 
 👩‍💻 Contributors
-Amrutha B
 
+Amrutha B
 Harshita K
 💻 Our Mission
 
