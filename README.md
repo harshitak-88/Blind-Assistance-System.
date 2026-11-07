@@ -96,11 +96,7 @@ Allow camera and microphone permissions when prompted.
 
 This project is an assistive technology prototype. It is not intended to replace established mobility aids such as white canes or guide dogs. It should be tested in safe environments.
 
-👩‍💻 Contributors
-
-Amrutha B
-
-Harshita K
+👩‍💻 Contributors:  Amrutha B     Harshita K
 
 Technology should not have barriers. We aim to use artificial intelligence to make the world more accessible, inclusive and independent for everyone.
 
