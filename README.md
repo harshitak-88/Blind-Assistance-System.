@@ -98,6 +98,7 @@ This project is an assistive technology prototype. It is not intended to replace
 
 👩‍💻 Contributors
 Amrutha B
+
 Harshita K
 💻 Our Mission
 
