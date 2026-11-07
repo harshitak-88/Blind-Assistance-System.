@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💻 Blind Assist AI
+# 💻 Blind Assist 
 
 ### 🤖 Empowering Independence Through AI
 
@@ -160,10 +160,3 @@ This project is an assistive technology prototype. It is not intended to replace
 
 *Technology should not have barriers. We aim to use artificial intelligence to make the world more accessible, inclusive and independent for everyone.*
 
-<div align="center">
-
-**Built with 💻 for Accessibility**
-
-### Blind Assist AI | Making Every Step More Confident
-
-</div>
