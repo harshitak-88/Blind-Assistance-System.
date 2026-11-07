@@ -99,8 +99,8 @@ This project is an assistive technology prototype. It is not intended to replace
 👩‍💻 Contributors
 
 Amrutha B
+
 Harshita K
-💻 Our Mission
 
 Technology should not have barriers. We aim to use artificial intelligence to make the world more accessible, inclusive and independent for everyone.
 
