@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+💻 Blind Assist AI
+🤖 Empowering Independence Through AI
 
-## Available Scripts
+An AI-powered assistive web application designed to help visually impaired individuals understand their surroundings through real-time object detection and voice feedback.
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+🤖 About the Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Blind Assist AI is a React-based assistive technology project that uses a webcam and machine learning to identify objects in the user's surroundings.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application provides spoken feedback about detected objects, helping visually impaired individuals gain better awareness of their environment.
 
-### `npm test`
+Our goal is to make everyday interactions more accessible through artificial intelligence and voice-based assistance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⚙️ Key Features
+Feature	Description
+📷 Real-Time Camera	Captures the surrounding environment using a webcam.
+🤖 AI Object Detection	Identifies everyday objects using the COCO-SSD model.
+🔊 Voice Feedback	Announces detected objects using text-to-speech.
+🎙️ Voice Commands	Recognises the command "What do you see?"
+🎯 Confidence Filtering	Filters object detections using a 50% confidence threshold.
+💻 Accessibility	Combines object recognition with audio assistance.
+🛠️ Technology Stack
 
-### `npm run build`
+<div align="center">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technology	Application
+⚛️ React.js	Frontend development
+💻 JavaScript	Application logic
+🧠 TensorFlow.js	Browser-based machine learning
+📦 COCO-SSD	Object detection
+🌐 HTML5	Web application structure
+🎨 CSS3	User interface styling
+🎙️ Web Speech API	Voice recognition and speech output
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📂 Project Structure
+Blind-Assistance-System/
+│
+├── 📁 public/
+│   └── index.html
+│
+├── 📁 src/
+│   ├── App.js
+│   ├── ObjectDetection.js
+│   ├── index.js
+│   └── styles.css
+│
+├── 📄 package.json
+├── 📄 package-lock.json
+├── 📄 .gitignore
+└── 📄 README.md
+⚙️ Installation & Setup
+Prerequisites
+Node.js
+npm
+Webcam
+Modern web browser
+Step 1: Clone the repository
+git clone "https://github.com/harshitak-88/Blind-Assistance-System."
+Step 2: Navigate to the project directory
+cd Blind-Assistance-System.
+Step 3: Install dependencies
+npm install
 
-### `npm run eject`
+Install the object detection dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install @tensorflow-models/coco-ssd @tensorflow/tfjs
+Step 4: Start the application
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open your browser at:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Allow camera and microphone permissions when prompted.
 
-## Learn More
+🔍 How It Works
+📷 The application requests webcam access.
+🧠 The COCO-SSD machine learning model loads in the browser.
+🔎 Camera frames are processed to identify objects.
+🎯 Detections with confidence scores above 50% are selected.
+🔊 Detected objects are announced through voice feedback.
+🎙️ Users can say "What do you see?" to request object detection.
+🚀 Future Enhancements
+🌐 Multilingual voice assistance.
+📡 Improved object distance estimation.
+🧠 Enhanced object detection accuracy.
+⚙️ Improved accessibility features.
+🔗 Integration with additional assistive technologies.
+⚠️ Safety Notice
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is an assistive technology prototype. It is not intended to replace established mobility aids such as white canes or guide dogs. It should be tested in safe environments.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+👩‍💻 Contributors
+Amrutha B
+Harshita K
+💻 Our Mission
 
-### Code Splitting
+Technology should not have barriers. We aim to use artificial intelligence to make the world more accessible, inclusive and independent for everyone.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div align="center">
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</div>
